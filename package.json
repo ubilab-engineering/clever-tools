@@ -1,6 +1,6 @@
 {
   "name": "clever-tools",
-  "version": "0.10.1",
+  "version": "0.9.4",
   "description": "CLI tool to manage Clever Cloud applications",
   "main": "bin/clever.js",
   "keywords": [
@@ -13,43 +13,7 @@
   "author": "Rodolphe Belouin <rodolphe.belouin@gmail.com>",
   "license": "MIT",
   "bin": {
-    "clever": "./bin/clever.js",
-    "install-clever-completion": "./scripts/install-autocomplete.sh",
-    "uninstall-clever-completion": "./scripts/uninstall-autocomplete.sh"
-  },
-  "dependencies": {
-    "baconjs": "^0.7.83",
-    "bluebird": "^3.1.1",
-    "clever-client": "^0.7.4",
-    "cliparse": "^0.3.0",
-    "colors": "^1.1.2",
-    "common-env": "^5.4.0",
-    "eslint": "^4.0.0",
-    "lodash": "^4.13.1",
-    "mkdirp": "^0.5.1",
-    "moment": "^2.11.0",
-    "nodegit": "0.20.3",
-    "request": "^2.67.0",
-    "unidecode": "^0.1.8",
-    "update-notifier": "^1.0.2",
-    "ws": "^1.0.1",
-    "xdg": "^0.1.1"
-  },
-  "devDependencies": {
-    "aws-sdk": "^2.180.0",
-    "chai": "^3.5.0",
-    "del": "^3.0.0",
-    "fs-extra": "^5.0.0",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-http": "^2.0.1",
-    "grunt-mocha-test": "^0.13.2",
-    "mocha": "^3.1.0",
-    "pkg": "^4.2.0",
-    "shelljs": "^0.7.0"
-  },
-  "scripts": {
-    "test": "grunt test"
+    "clever": "./bin/clever.js"
   },
   "repository": {
     "type": "git",
@@ -58,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/CleverCloud/clever-tools/issues"
   },
-  "homepage": "https://github.com/CleverCloud/clever-tools",
-  "pkg": {
-    "scripts": [
-      "src/**/*.js"
-    ]
-  }
+  "homepage": "https://github.com/CleverCloud/clever-tools"
 }
